@@ -16,8 +16,8 @@ stored the same way as your account number and how much money you have?
 SELECT * FROM artists WHERE name='Kid Cudi'
 ```
 
-4 . Define "Persistence" in programming. Does the `@@all` class variable we have
-   been using in our code meet all the criteria for "persistence".
+4 . Define "Persistence" in programming. Does a class variable like `@@all` 
+meet all the criteria for "persistence"?
 
 5. Translate this into your own words:
 
