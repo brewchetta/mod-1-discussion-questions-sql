@@ -22,8 +22,30 @@ rating, in the Financial District, which have higher than a 3 star rating?
 5 . Translate this into your own words:
 
 ```sql
-SELECT * FROM artists WHERE ArtistName='Kid Cudi'
+SELECT * FROM artists WHERE name='Kid Cudi'
 ```
 
 6 . Define "Persistence" in programming. Does the `@@all` class variable we have
    been using in our code meet all the criteria for "persistence".
+
+7. Translate this into your own words:
+
+```sql
+INSERT INTO artists (name, genre) VALUES ('Taylor Swift', 'Pop');
+```
+
+8. What is a Primary Key? Do we manually insert them into our database? What issues might we run into if we didn't have them?
+
+9. Translate this into your own words:
+
+```sql
+DELETE FROM artists WHERE name = 'Kanye';
+```
+
+10. Translate this into your own words:
+
+```sql
+SELECT * FROM artists WHERE name LIKE 'k%'
+```
+
+11. Work with your group to come up with the SQL command to UPDATE Taylor Swift so that her genre is 'Country Pop' instead of 'Pop'.
